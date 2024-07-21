@@ -91,15 +91,3 @@ This project aims to develop a house price prediction model using regression to 
 
 The project successfully built and evaluated various models for predicting house prices in Melbourne. Future work includes incorporating additional factors such as economic indicators and inflation rates to improve prediction accuracy.
 
-## References
-
-- [Understanding Gradient Boosting Machines](https://towardsdatascience.com/understanding-gradient-boosting-machines-9be756fe76ab)
-- [Kaggle](https://www.kaggle.com/)
-- [Linear Regression](https://towardsdatascience.com/tagged/linear-regression)
-- [Gradient Boosting Regressor - Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html)
-- [Numpy Quickstart](https://docs.scipy.org/doc/numpy/user/quickstart.html)
-- [Scikit-learn Tutorial](https://scikit-learn.org/stable/tutorial/basic/tutorial.html)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
