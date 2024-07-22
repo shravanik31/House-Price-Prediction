@@ -49,8 +49,8 @@ This project aims to develop a house price prediction model using regression to 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/shravanik31/house-price-prediction.git
-    cd house-price-prediction
+    git clone https://github.com/shravanik31/House-Price-Prediction.git
+    cd House-Price-Prediction
     ```
 
 2. **Create a virtual environment and activate it:**
