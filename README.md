@@ -34,60 +34,56 @@ This project aims to develop a house price prediction model using regression to 
 
 ## Data Preparation
 
-1. **Dataset:**
-    - The dataset contains information about house prices in Melbourne, Australia, including features such as suburb, address, number of rooms, price, method of sale, type of property, and more.
+- **Dataset:** Contains information about house prices in Melbourne, Australia, including features such as suburb, address, number of rooms, price, method of sale, type of property, and more.
+- **Data Analysis and Cleaning:** Involves handling missing values, detecting and correcting or removing corrupt records, and visualizing relationships between variables.
+- **Feature Selection:** Selecting relevant features that contribute the most to the prediction variable to improve model performance.
 
-2. **Data Analysis:**
-    - Load and explore the dataset.
-    - Handle missing values through imputation or by dropping columns with missing values.
+## Model Building and Evaluation
 
-3. **Data Cleaning:**
-    - Detect and correct or remove corrupt or inaccurate records from the dataset.
+- Models are built using Linear Regression, Decision Tree Regressor, and Gradient Boosting Regressor.
+- Evaluation metrics include R2 score and Mean Absolute Error (MAE).
+- Hyperparameters are fine-tuned to improve model accuracy.
 
-4. **Data Visualization:**
-    - Use Seaborn and Matplotlib for visualizing relationships between variables.
+## Usage
 
-5. **Feature Selection:**
-    - Select relevant features that contribute the most to the prediction variable to improve model performance.
+1. **Clone the repository:**
 
-## Model Building
+    ```bash
+    git clone https://github.com/shravanik31/house-price-prediction.git
+    cd house-price-prediction
+    ```
 
-- Split the data into training and testing sets.
-- Use Linear Regression, Decision Tree Regressor, and Gradient Boosting Regressor to build prediction models.
+2. **Create a virtual environment and activate it:**
 
-## Model Evaluation
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
 
-- Evaluate each model using metrics such as R2 score and Mean Absolute Error (MAE).
-- Fine-tune hyperparameters to improve model accuracy.
+3. **Install the required packages:**
 
-## Implementation
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-1. **Data Exploration:**
-    - Load and explore the dataset.
-    - Print a summary of the dataset.
+4. **Download the dataset:**
 
-2. **Dealing with Missing Values:**
-    - Handle missing values through imputation or by dropping columns.
+    Download the dataset from [Kaggle](https://www.kaggle.com/code/alexisbcook/xgboost/data) and place it in your directory.
 
-3. **Data Cleaning:**
-    - Clean the data by detecting and correcting or removing corrupt records.
+5. **Run the Jupyter Notebook:**
 
-4. **Data Visualization:**
-    - Visualize data using Seaborn and Matplotlib.
+    ```bash
+    jupyter notebook HousePricePrediction.ipynb
+    ```
 
-5. **Feature Selection:**
-    - Select relevant features for model building.
-
-6. **Model Building:**
-    - Build regression models using Linear Regression, Decision Tree Regressor, and Gradient Boosting Regressor.
-
-7. **Model Evaluation:**
-    - Evaluate models using R2 score and Mean Absolute Error (MAE).
-
-8. **Improving Accuracy:**
-    - Fine-tune hyperparameters and use techniques like GridSearchCV to improve model accuracy.
+6. **Follow the steps in the notebook to load the data, preprocess it, build models, and evaluate them.**
 
 ## Conclusion and Future Work
 
 The project successfully built and evaluated various models for predicting house prices in Melbourne. Future work includes incorporating additional factors such as economic indicators and inflation rates to improve prediction accuracy.
 
+## References
+
+- [Understanding Gradient Boosting Machines](https://towardsdatascience.com/understanding-gradient-boosting-machines-9be756fe76ab)
+- [Linear Regression](https://towardsdatascience.com/tagged/linear-regression)
+- [Gradient Boosting Regressor - Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html)
